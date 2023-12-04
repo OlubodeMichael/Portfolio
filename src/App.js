@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from "react";
+import { About } from "./components/About";
+import { Contact } from "./components/Contact";
+import { Scroll } from "./components/ScrollToTop";
+import { Project } from "./components/Project";
+import { NavBar } from "./components/NavBar";
+import { HeroSection } from "./components/HeroSection";
 
 function App() {
+  const [menuIsOpen, setMenuIsOpen] = useState(false)
+  function handleMenu() {
+    setMenuIsOpen((isOpen) => !isOpen)
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="min-h-screen flex flex-col  text-white scroll-smooth focus:scroll-auto">
+      {!menuIsOpen && <Scroll />}
+      <NavBar handleMenu={handleMenu} menuIsOpen={menuIsOpen}/>
+      <HeroSection />
+      <About />
+      <Project />
+      <Contact />
+
     </div>
   );
 }
