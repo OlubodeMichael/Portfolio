@@ -23,7 +23,7 @@ const projectList = [
 
 export function Project() {
   return (
-    <div className="min-h-screen flex flex-col p-4 md:p-10 mt-10 mt-52 sm:mt-0 mb-20 sm:mb-0 sm:ml-20">
+    <div className="min-h-screen flex flex-col p-4 md:p-10 mt-10 mt-80 sm:mt-0 mb-20 sm:mb-0 sm:ml-20">
       <h1 className="flex flex-col justify-center items-center text-white text-center font-bold text-4xl">PROJECT</h1>
       {projectList.map((project, index) => (
         <div key={index} className="mt-10 mb-10">
