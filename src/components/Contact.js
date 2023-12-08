@@ -43,7 +43,7 @@ export function Contact() {
             onChange={e => setMessage(e.target.value)}/>
         </div>
         <Button>Submit</Button>
-        <div className="flex mt-32 mb-16">
+        <div className="flex mt-32  mb-16">
           <a href="https://www.linkedin.com/in/michael-olubode-olushola/" target="_blank" rel="noopener noreferrer">
             <img src={Linkedin} alt="linkedin" className="w-7 h-7 m-8" />
           </a>
