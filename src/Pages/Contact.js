@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Linkedin from "../assest/linkedin.svg";
 import Github from "../assest/github.svg";
-import { Button } from "./Button";
+import { Button } from "../components/Button";
 
 export function Contact() {
   const [name, setName] = useState("");

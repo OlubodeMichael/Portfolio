@@ -1,10 +1,10 @@
 import React, {useState} from "react";
-import { About } from "./components/About";
-import { Contact } from "./components/Contact";
+import { About } from "./Pages/About";
+import { Contact } from "./Pages/Contact";
 import { Scroll } from "./components/ScrollToTop";
 import { Project } from "./components/Project";
-import { NavBar } from "./components/NavBar";
-import { HeroSection } from "./components/HeroSection";
+import { NavBar } from "./Pages/NavBar";
+import { HeroSection } from "./Pages/HeroSection";
 
 function App() {
   const [menuIsOpen, setMenuIsOpen] = useState(false)

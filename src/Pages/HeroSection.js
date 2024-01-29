@@ -1,6 +1,6 @@
 import React from "react";
 import Icon from "../assest/icon.svg";
-import { Button } from "./Button";
+import { Button } from "../components/Button";
 
 export function HeroSection() {
   const pdfUrl = process.env.PUBLIC_URL + "/MyResume.pdf";

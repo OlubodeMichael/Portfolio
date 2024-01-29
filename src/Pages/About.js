@@ -1,6 +1,6 @@
 import React from "react";
-import { SkillsCard } from "./SkillsCard";
-import { Button } from "./Button"
+import { SkillsCard } from "../components/SkillsCard";
+import { Button } from "../components/Button"
 
 const skills = ["Java", "C++", "Python", "Javascript", "SQL", "HTML/CSS", "ReactJS", "NodeJS", "SEO", 'Figma', 'Unix', 'Git'];
 export function About() {
