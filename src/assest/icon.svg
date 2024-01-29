@@ -1,4 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="63" viewBox="0 0 32 63" fill="none">
   <rect x="1" y="0.5" width="30" height="62" rx="15" stroke="white"/>
-  <ellipse cx="16.5" cy="46.5" rx="3" ry="3.5" fill="#fff"/>
+  <ellipse cx="16.5" cy="46.5" rx="3" ry="3.5" fill="#fff">
+    <!-- Animate the 'cy' attribute to make the ellipse move along the y-axis -->
+    <animate attributeName="cy" values="46.5;26.5;46.5" dur="3s" repeatCount="indefinite" />
+  </ellipse>
 </svg>
