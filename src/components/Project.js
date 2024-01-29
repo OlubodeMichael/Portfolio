@@ -34,3 +34,5 @@ export function Project() {
   );
 }
 
+
+// flex  justify-around align-top mt-10 sm:mt-32 max-md:flex-col
