@@ -9,7 +9,7 @@ export function HeroSection() {
       <h1 className=" text-4xl sm:text-6xl font-bold mb-4 ">
         HEY, I'M MICHAEL OLUBODE
       </h1>
-      <p className="max-w-2xl text-lg tracking-wide font-lato tracking-wide leading-10 mt-10 w-80 sm:w-auto">
+      <p className="max-w-2xl text-lg tracking-wide font-lato  leading-10 mt-10 w-80 sm:w-auto">
         A Full Stack Engineer specializing in frontend development, dedicated to creating impactful user interfaces for websites and web applications to drive overall product success.
       </p>
       <a href={pdfUrl} target="_blank" rel="noopener noreferrer">
