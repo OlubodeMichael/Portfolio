@@ -7,6 +7,7 @@ import { NavBar } from "./Pages/NavBar";
 import { HeroSection } from "./Pages/HeroSection";
 import { motion, useScroll } from "framer-motion";
 
+
 function App() {
   const [menuIsOpen, setMenuIsOpen] = useState(false)
   const { scrollYProgress } = useScroll();
@@ -15,6 +16,7 @@ function App() {
   }
   return (
     <>
+      
       <motion.div
         className="progress-bar"
         style={{ scaleX: scrollYProgress }}
